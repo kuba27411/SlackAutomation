@@ -5,23 +5,7 @@ import re
 
 def send_json_payload(username, password):
 
-    payload = {
-        "accountStrategyId": 347,
-        "accountreference": "",
-        "application": {
-            "country": "GBR",
-            "clientApplicationPurpose": ""
-        },
-        "person": [
-            {
-                "isPrimary": True,
-                "role": "APPLICANT",
-                "clientReference": "{{$isoTimestamp}}",
-                "firstName": "Hello",
-                "lastName": "Player-One"
-            }
-        ]
-    }
+    payload = {}
 
     auth = (username, password)
 
