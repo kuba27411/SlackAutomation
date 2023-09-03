@@ -6,11 +6,11 @@ from slack import send_json_payload
 
 
 def generate_and_send_links():
-    slack_token = "xoxb-5440034521777-5412921557751-B1Kjz39QjfWkGwGOncOlEyB0"
+    slack_token = "Your_Slack_Token"
     slack_client = WebClient(token=slack_token)
 
-    username = "jakub.cieslak+angular@lexisnexisrisk.com"
-    password = "JestemIdiota123!"
+    username = "AuthUsername"
+    password = "AuthPassword"
 
     df = pd.read_excel("C:/Users/Jakub/Desktop/SlackAutomation/src/user_ids.xlsx")
     user_ids = df['User ID'].tolist()
