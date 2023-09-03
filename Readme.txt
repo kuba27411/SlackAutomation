@@ -22,7 +22,7 @@ Copy code
 pip install slack_sdk pandas
 Make sure you have a valid Slack API token. If not, obtain one by creating a new Slack app and generating a token with the necessary permissions.
 
-Update the API token in the apiHandler.py script by replacing xoxb-5440034521777-5412921557751-B1Kjz39QjfWkGwGOncOlEyB0 with your actual token.
+Update the API token in the YOUR_SLACK_TOKEN with your actual token.
 
 Run the program by executing the BAT.RUN file or by running the apiHandler.py script directly.
 
