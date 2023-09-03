@@ -9,7 +9,7 @@ def send_json_payload(username, password):
 
     auth = (username, password)
 
-    response = requests.post("https://qa.trunarrative.cloud/TruAccountAPI/rest/Accounts/v1/RunStrategy", json=payload, auth=auth)
+    response = requests.post("ENDPOINT", json=payload, auth=auth)
 
     json_response = json.loads(response.text)
 
